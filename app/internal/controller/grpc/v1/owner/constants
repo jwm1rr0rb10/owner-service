@@ -1,0 +1,15 @@
+package owner
+
+// here we will be creating all rows from postgres table. 
+
+// The first we needed it when we will be working with search how ILIKE,
+// here will be the simple search without All Text Search in Postgres.
+// ILIKE so good if we will be using the simple search how here for DemoMVP
+// Why? Because ILIKE working with all register how small so and big but dont understabnd mistakes
+// and when we will be search Name User better using ILIKE (on the first time)
+// the second why constants else and Why the different file
+// because i will be using it in the 2 places. The first in file filter for search
+// the second in dal/postegres with lib queriefy for working with table,
+// look we all using aliase's in the table for difficult query how and name table how and others trhings.
+// and we should be understand that DONT REPEAT YOURSELF DRY)))
+// or Sait code-_))) capybara
